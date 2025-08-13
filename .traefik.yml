@@ -1,0 +1,10 @@
+displayName: New Relic Request Queueing Plugin
+type: middleware
+iconPath: .assets/flippa-logo.png
+
+import: github.com/flippa/nr-request-queueing-traefik-plugin
+
+summary: 'A Traefik middleware plugin that adds the `X-Request-Start` header to incoming HTTP requests for New Relic request queueing monitoring.'
+
+testData:
+  name: 'nr-request-queueing-traefik-plugin'
